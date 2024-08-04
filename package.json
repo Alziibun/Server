@@ -1,0 +1,22 @@
+{
+  "name": "chat-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "open": "opener http://localhost:8080",
+    "server": "node server.js",
+    "start": "npm run open && npm run server"
+  },
+  "author": "Alzii",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "http-server": "^14.1.1",
+    "opener": "^1.5.2"
+  }
+}
